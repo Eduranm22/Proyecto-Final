@@ -4,7 +4,7 @@ import time
 import os
 from utils.currency import get_balance, update_currency
 
-STATE_FILE = "data/challenge_state.json"
+STATE_FILE = "challenge_state.json"
 
 DAILY_CHALLENGES = [
     "Apaga todas las luces innecesarias durante una hora.",
