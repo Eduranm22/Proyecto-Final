@@ -1,7 +1,7 @@
 import json
 import os
 
-SAVE_FILE = "data/user_data.json"
+SAVE_FILE = "user_data.json"
 
 def load_user_data():
     if not os.path.exists(SAVE_FILE):
