@@ -2,7 +2,7 @@ import json
 import os
 from .save import get_user_progress, update_user_progress
 
-STORY_FILE = "story/story_data.json"
+STORY_FILE = "story_data.json"
 
 def load_stories():
     with open(STORY_FILE, "r", encoding="utf-8") as f:
