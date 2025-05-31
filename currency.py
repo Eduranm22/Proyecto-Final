@@ -1,7 +1,7 @@
 import json
 import os
 
-CURRENCY_FILE = "data/currency.json"
+CURRENCY_FILE = "currency.json"
 
 def load_balances():
     if not os.path.exists(CURRENCY_FILE):
