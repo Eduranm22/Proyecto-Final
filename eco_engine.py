@@ -1,7 +1,7 @@
 import json
 import os
 
-DATA_PATH = "data/eco_data.json"
+DATA_PATH = "eco_data.json"
 
 default_questions = [
     {
