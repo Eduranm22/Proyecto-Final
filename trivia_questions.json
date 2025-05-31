@@ -1,0 +1,472 @@
+[
+  {
+    "question": "¿Cuál de las siguientes actividades ayuda a reducir las emisiones de carbono?",
+    "options": [
+      "Conducir solo al trabajo",
+      "Reciclar y reutilizar",
+      "Comprar ropa nueva cada semana",
+      "Usar bolsas plásticas"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué es el efecto invernadero?",
+    "options": [
+      "El proceso de enfriamiento de la Tierra",
+      "La acumulación de gases que atrapan calor en la atmósfera",
+      "Un método de agricultura",
+      "Una capa de hielo sobre la Tierra"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué fuente de energía es renovable?",
+    "options": [
+      "Carbón",
+      "Gas natural",
+      "Energía solar",
+      "Petróleo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué país es uno de los principales emisores de CO₂ actualmente?",
+    "options": [
+      "Canadá",
+      "España",
+      "China",
+      "Suecia"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué actividad humana contribuye más al calentamiento global?",
+    "options": [
+      "Pesca artesanal",
+      "Turismo local",
+      "Deforestación",
+      "Senderismo"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es una consecuencia directa del derretimiento de los glaciares?",
+    "options": [
+      "Descenso del nivel del mar",
+      "Cambio en las estaciones del año",
+      "Aumento del nivel del mar",
+      "Incremento de terremotos"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es un beneficio de usar bicicletas en lugar de automóviles?",
+    "options": [
+      "Aumenta las emisiones",
+      "Emite más ruido",
+      "Reduce la contaminación",
+      "Requiere más combustible"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué sector produce más gases de efecto invernadero?",
+    "options": [
+      "Agricultura",
+      "Transporte",
+      "Tecnología",
+      "Pesca"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál de los siguientes gases contribuye al cambio climático?",
+    "options": [
+      "Helio",
+      "Oxígeno",
+      "Metano",
+      "Neón"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es el objetivo principal del Acuerdo de París?",
+    "options": [
+      "Eliminar la contaminación plástica",
+      "Controlar la deforestación en América Latina",
+      "Mantener el aumento de la temperatura global por debajo de 2°C",
+      "Prohibir el uso de petróleo en Europa"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué sucede cuando la capa de ozono se debilita?",
+    "options": [
+      "Disminuyen los rayos UV",
+      "Aumenta el CO₂",
+      "Entran más rayos UV nocivos",
+      "El clima se enfría"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué tipo de bolsas es más amigable con el medio ambiente?",
+    "options": [
+      "Plástico de un solo uso",
+      "Papel encerado",
+      "Tela reutilizable",
+      "Bolsa de aluminio"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué acción reduce el desperdicio de energía en casa?",
+    "options": [
+      "Dejar luces encendidas",
+      "Usar electrodomésticos eficientes",
+      "Abrir ventanas en invierno",
+      "Hervir agua todo el día"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué recurso natural se ve afectado por las sequías prolongadas?",
+    "options": [
+      "Petróleo",
+      "Agua dulce",
+      "Minerales",
+      "Viento"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué animal se encuentra en peligro por el deshielo del Ártico?",
+    "options": [
+      "León",
+      "Elefante",
+      "Oso polar",
+      "Canguro"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es una forma de energía limpia?",
+    "options": [
+      "Gasolina",
+      "Carbón",
+      "Hidroelectricidad",
+      "Diesel"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál de los siguientes es un gas de efecto invernadero?",
+    "options": [
+      "Hidrógeno",
+      "Dióxido de carbono",
+      "Helio",
+      "Nitrógeno"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué medida puede tomar una ciudad para reducir su huella de carbono?",
+    "options": [
+      "Eliminar transporte público",
+      "Aumentar áreas verdes",
+      "Fomentar autos particulares",
+      "Permitir más fábricas contaminantes"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué es compostar?",
+    "options": [
+      "Quemar residuos",
+      "Enterrar plástico",
+      "Transformar residuos orgánicos en abono",
+      "Exportar basura"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué tipo de consumo ayuda a cuidar el medio ambiente?",
+    "options": [
+      "Consumismo extremo",
+      "Productos locales y de temporada",
+      "Electrodomésticos antiguos",
+      "Productos con mucho empaque"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué significa la sigla CO₂?",
+    "options": [
+      "Carbono oxidado",
+      "Carbono de ozono",
+      "Dióxido de carbono",
+      "Compuesto oxigenado 2"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué puede hacer un colegio para reducir su impacto ambiental?",
+    "options": [
+      "Usar papel reciclado",
+      "Tirar basura al río",
+      "Usar solo luz artificial",
+      "Evitar el reciclaje"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué sucede si todos los glaciares se derriten?",
+    "options": [
+      "Sube el nivel del mar",
+      "Baja el nivel del mar",
+      "No cambia nada",
+      "Aumentan los terremotos"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué ventaja tiene usar paneles solares?",
+    "options": [
+      "Generan contaminación",
+      "Producen energía limpia",
+      "Funcionan solo de noche",
+      "No sirven en ciudades"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué efecto tiene el plástico en los océanos?",
+    "options": [
+      "Alimenta a los peces",
+      "Ayuda al ecosistema",
+      "Contamina y daña la fauna marina",
+      "Purifica el agua"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué tipo de carne produce más gases de efecto invernadero?",
+    "options": [
+      "Pollo",
+      "Cerdo",
+      "Res",
+      "Pescado"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué acción individual puede reducir tu huella ecológica?",
+    "options": [
+      "Viajar en avión cada mes",
+      "Reciclar en casa",
+      "Comer carne todos los días",
+      "Comprar ropa sin parar"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué animales sufren con el aumento de temperatura en el mar?",
+    "options": [
+      "Corales",
+      "Osos",
+      "Águilas",
+      "Elefantes"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué ciudad es conocida por su sistema de bicicletas públicas?",
+    "options": [
+      "Londres",
+      "Pekín",
+      "Ámsterdam",
+      "Nueva York"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué transporte genera menos emisiones por persona?",
+    "options": [
+      "Auto particular",
+      "Avión",
+      "Tren eléctrico",
+      "Motocicleta"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué día se celebra el Día de la Tierra?",
+    "options": [
+      "5 de junio",
+      "22 de abril",
+      "1 de mayo",
+      "12 de octubre"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Cuál es un símbolo común del reciclaje?",
+    "options": [
+      "Círculo azul",
+      "Flechas formando un triángulo",
+      "Hoja verde",
+      "Sol amarillo"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué país es líder en uso de energía eólica?",
+    "options": [
+      "China",
+      "España",
+      "Estados Unidos",
+      "Dinamarca"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "¿Qué es la movilidad sostenible?",
+    "options": [
+      "Conducir rápido",
+      "Transporte ecológico y eficiente",
+      "Usar autos grandes",
+      "Volar con frecuencia"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué significa 'economía circular'?",
+    "options": [
+      "Producción infinita",
+      "Reutilización y reciclaje de productos",
+      "Consumo masivo",
+      "Comprar sin parar"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué animales dependen del hielo marino para sobrevivir?",
+    "options": [
+      "Delfines",
+      "Ballenas",
+      "Osos polares",
+      "Tiburones"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué práctica agrícola ayuda a capturar carbono?",
+    "options": [
+      "Monocultivo",
+      "Quema de residuos",
+      "Agroforestería",
+      "Uso de pesticidas"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Cuál es una forma de compensar tu huella de carbono?",
+    "options": [
+      "Comprar más cosas",
+      "Plantar árboles",
+      "Usar más gasolina",
+      "Tirar residuos al mar"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué tipo de lámparas ahorran más energía?",
+    "options": [
+      "Incandescentes",
+      "Halógenas",
+      "LED",
+      "De neón"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué es el IPCC?",
+    "options": [
+      "Un comité internacional sobre cambio climático",
+      "Una ONG ambiental",
+      "Una empresa energética",
+      "Un satélite"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "¿Qué puede causar la sobrepesca relacionada con el cambio climático?",
+    "options": [
+      "Aumento de biodiversidad",
+      "Colapso de ecosistemas marinos",
+      "Más peces",
+      "Mayor fertilidad del agua"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué material es más difícil de reciclar?",
+    "options": [
+      "Papel",
+      "Vidrio",
+      "Plástico mezclado",
+      "Aluminio"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué zona del mundo se calienta más rápido?",
+    "options": [
+      "Antártida",
+      "Trópico de Cáncer",
+      "Ártico",
+      "Ecuador"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué es el deshielo permafrost?",
+    "options": [
+      "El deshielo de nieve reciente",
+      "La congelación de lagos",
+      "El derretimiento de suelo congelado",
+      "Un tipo de glaciar"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué ocurre si el fitoplancton disminuye por el cambio climático?",
+    "options": [
+      "Aumenta el oxígeno",
+      "Mejora la pesca",
+      "Reduce el oxígeno del mar",
+      "Crecen los corales"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "¿Qué insectos ayudan a la biodiversidad y se ven afectados por pesticidas?",
+    "options": [
+      "Mosquitos",
+      "Abejas",
+      "Hormigas",
+      "Cucarachas"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "¿Qué acción ayuda a reducir la contaminación del aire?",
+    "options": [
+      "Usar más aires acondicionados",
+      "Caminar o usar bicicleta",
+      "Conducir autos antiguos",
+      "Fumar en la calle"
+    ],
+    "answer": 1
+  }
+]

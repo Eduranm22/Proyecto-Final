@@ -1,0 +1,1279 @@
+{
+  "city_corruption": {
+    "start": {
+      "text": "Descubres una red de corrupción profundamente arraigada dentro del gobierno de la ciudad que está perjudicando las políticas ambientales. Tu primer movimiento debe ser estratégico. ¿Qué haces?",
+      "choices": [
+        {"option": "Reclutar expertos para analizar patrones de corrupción", "next": "recruit_experts"},
+        {"option": "Organizar movimientos juveniles para reunir apoyo", "next": "youth_movement"},
+        {"option": "Lanzar una investigación secreta para reunir pruebas", "next": "secret_investigation"}
+      ]
+    },
+
+    "recruit_experts": {
+      "text": "Expertos se unen a tu causa y comienzan a mapear los jugadores clave y sus conexiones. Esto fortalece tu estrategia con datos concretos. ¿Qué haces ahora?",
+      "choices": [
+        {"option": "Buscar aliados dentro del gobierno para obtener información interna", "next": "gather_allies"},
+        {"option": "Capacitar a activistas locales con los conocimientos adquiridos", "next": "train_locals"},
+        {"option": "Solicitar apoyo internacional para mayor presión", "next": "international_support"}
+      ]
+    },
+
+    "youth_movement": {
+      "text": "Las manifestaciones juveniles ganan fuerza y visibilidad, pero la oposición también se intensifica. ¿Cómo mantienes la presión?",
+      "choices": [
+        {"option": "Organizar protestas pacíficas en puntos estratégicos de la ciudad", "next": "peaceful_protest"},
+        {"option": "Implementar programas educativos sobre corrupción y medio ambiente en escuelas", "next": "school_programs"},
+        {"option": "Formar alianzas con negocios responsables para fortalecer el movimiento", "next": "business_pressure"}
+      ]
+    },
+
+    "secret_investigation": {
+      "text": "Tu investigación secreta revela evidencias contundentes, pero también te pone en riesgo. ¿Qué haces?",
+      "choices": [
+        {"option": "Presentar las pruebas públicamente y asumir el riesgo", "next": "come_forward"},
+        {"option": "Filtrar información a la prensa para proteger tu identidad", "next": "support_press"},
+        {"option": "Mantener el anonimato y guiar el movimiento desde las sombras", "next": "stay_anonymous"}
+      ]
+    },
+
+    "gather_allies": {
+      "text": "Tus aliados dentro del gobierno te proveen información crucial para anticipar movimientos de la corrupción. ¿Qué acción tomas?",
+      "choices": [
+        {"option": "Organizar protestas masivas con base en la información interna", "next": "organize_protests"},
+        {"option": "Negociar con industrias para promover políticas más verdes", "next": "negotiate_industries"},
+        {"option": "Usar la información para presionar cambios legislativos inmediatos", "next": "push_change"}
+      ]
+    },
+
+    "train_locals": {
+      "text": "Capacitar a activistas locales fortalece la base del movimiento, aunque la coordinación es un desafío. ¿Cuál es tu prioridad?",
+      "choices": [
+        {"option": "Expandir la capacitación a más comunidades", "next": "expand_training"},
+        {"option": "Formar un consejo de liderazgo centralizado", "next": "central_council"},
+        {"option": "Organizar eventos culturales para fortalecer la unidad", "next": "cultural_events"}
+      ]
+    },
+
+    "expand_training": {
+      "text": "La expansión de la capacitación crea una red resiliente de activistas. Comienzan a liderar sus propias campañas. (Final Bueno)",
+      "choices": []
+    },
+
+    "central_council": {
+      "text": "El consejo permite decisiones más coordinadas, pero se vuelve blanco de amenazas. El grupo se fragmenta. (Final Neutral)",
+      "choices": []
+    },
+
+    "international_support": {
+      "text": "Recibes apoyo internacional, pero algunos grupos locales desconfían de la interferencia externa. ¿Cómo balanceas esto?",
+      "choices": [
+        {"option": "Usar la presión internacional para confrontar directamente a los corruptos", "next": "stand_ground"},
+        {"option": "Fomentar el liderazgo local mientras aprovechas la ayuda externa", "next": "train_locals"},
+        {"option": "Fortalecer la base local antes de avanzar con apoyo internacional", "next": "rebuild_green"}
+      ]
+    },
+
+    "peaceful_protest": {
+      "text": "Las protestas pacíficas atraen atención pero el cambio es lento. ¿Qué haces para acelerar el proceso?",
+      "choices": [
+        {"option": "Organizar reuniones comunitarias para involucrar a más personas", "next": "community_meetings"},
+        {"option": "Aumentar la presión con campañas más contundentes", "next": "organize_protests"},
+        {"option": "Usar los medios para educar y ganar apoyo popular", "next": "support_press"}
+      ]
+    },
+
+    "school_programs": {
+      "text": "La educación en escuelas genera conciencia, pero el impacto inmediato es limitado. ¿Qué sigue?",
+      "choices": [
+        {"option": "Presionar para que se implementen reformas curriculares a nivel municipal", "next": "push_change"},
+        {"option": "Aliarte con movimientos juveniles para acciones conjuntas", "next": "youth_movement"},
+        {"option": "Buscar financiamiento gubernamental para ampliar programas", "next": "negotiate_industries"}
+      ]
+    },
+
+    "business_pressure": {
+      "text": "Algunos negocios apoyan la causa, otros la sabotean en secreto. ¿Cómo respondes?",
+      "choices": [
+        {"option": "Exponer públicamente a las empresas corruptas", "next": "support_press"},
+        {"option": "Negociar compromisos para políticas sostenibles", "next": "negotiate_industries"},
+        {"option": "Organizar boicots a empresas que financian la corrupción", "next": "organize_protests"}
+      ]
+    },
+
+    "come_forward": {
+      "text": "Al hacer pública tu identidad y pruebas, te conviertes en un símbolo, pero también en objetivo. ¿Cómo te proteges?",
+      "choices": [
+        {"option": "Buscar apoyo internacional para protección", "next": "international_support"},
+        {"option": "Continuar impulsando protestas pese a los riesgos", "next": "organize_protests"},
+        {"option": "Replantear la estrategia y retirarte temporalmente", "next": "retreat_plan"}
+      ]
+    },
+
+    "support_press": {
+      "text": "La prensa revela el escándalo, generando conmoción y riesgos. ¿Qué haces?",
+      "choices": [
+        {"option": "Mantenerte firme y consolidar apoyo público", "next": "stand_ground"},
+        {"option": "Pasar a la clandestinidad para proteger al equipo", "next": "retreat_plan"},
+        {"option": "Pedir ayuda internacional para seguridad", "next": "international_support"}
+      ]
+    },
+
+    "stay_anonymous": {
+      "text": "Guías el movimiento desde las sombras, evitando riesgos directos pero limitando impacto público. ¿Qué sigue?",
+      "choices": [
+        {"option": "Seguir investigando para obtener más evidencia", "next": "secret_investigation"},
+        {"option": "Reclutar líderes confiables para tomar el protagonismo", "next": "recruit_experts"},
+        {"option": "Retirarte definitivamente para proteger tu seguridad", "next": "leave_city"}
+      ]
+    },
+
+    "organize_protests": {
+      "text": "Las protestas masivas aumentan la presión, pero también la represión. ¿Cómo manejas esto?",
+      "choices": [
+        {"option": "Persistir con activismo valiente pese a las amenazas", "next": "stand_ground"},
+        {"option": "Fortalecer la capacitación y apoyo comunitario", "next": "train_locals"},
+        {"option": "Reducir las acciones para proteger a los activistas", "next": "retreat_plan"}
+      ]
+    },
+
+    "negotiate_industries": {
+      "text": "Conseguiste acuerdos para políticas verdes, pero la oposición interna crece. ¿Qué haces?",
+      "choices": [
+        {"option": "Presionar por regulaciones más estrictas", "next": "push_change"},
+        {"option": "Aceptar compromisos y mantener progreso constante", "next": "rebuild_green"},
+        {"option": "Retirarte de las negociaciones y buscar apoyo público", "next": "organize_protests"}
+      ]
+    },
+
+    "push_change": {
+      "text": "Tu exposición causa reformas urgentes, pero también pone tu seguridad en peligro. ¿Qué haces?",
+      "choices": [
+        {"option": "Liderar las reformas con determinación", "next": "stand_ground"},
+        {"option": "Retroceder temporalmente para reorganizarse", "next": "retreat_plan"},
+        {"option": "Solicitar protección internacional", "next": "international_support"}
+      ]
+    },
+
+    "stand_ground": {
+      "text": "Tu valentía provoca una revolución exitosa. Los corruptos son expulsados y la ciudad avanza hacia un futuro sostenible. Tu liderazgo es legendario. (Final Verdadero)",
+      "choices": []
+    },
+
+    "retreat_plan": {
+      "text": "Por amenazas, te retiras para planear mejor. El movimiento sobrevive, pero la corrupción persiste temporalmente. (Final Malo)",
+      "choices": []
+    },
+
+    "rebuild_green": {
+      "text": "Con paciencia y compromiso, la ciudad avanza hacia un modelo ecológico respetado. (Final Bueno)",
+      "choices": []
+    },
+
+    "leave_city": {
+      "text": "Por seguridad, abandonas la ciudad. El movimiento pierde impulso y la corrupción sigue sin control. (Final Malo)",
+      "choices": []
+    },
+
+    "community_meetings": {
+      "text": "Las reuniones fortalecen la unidad y aumentan la participación ciudadana. El movimiento crece sano y fuerte. (Final Bueno)",
+      "choices": []
+    },
+
+    "cultural_events": {
+      "text": "Eventos culturales acercan comunidades diversas, generando empatía y solidaridad ambiental. (Final Neutral)",
+      "choices": []
+    }
+  },
+
+
+  "ocean_rescue": {
+    "start": {
+      "text": "Eres líder de una expedición para rescatar la biodiversidad en una zona marina amenazada. El tiempo es crítico. ¿Cuál es tu primer paso?",
+      "choices": [
+        {"option": "Evaluar el estado del ecosistema con expertos científicos", "next": "scientific_evaluation"},
+        {"option": "Organizar a la tripulación para maximizar eficiencia", "next": "organize_crew"},
+        {"option": "Buscar apoyo de comunidades locales y pescadores", "next": "local_support"}
+      ]
+    },
+    "scientific_evaluation": {
+      "text": "El equipo determina que la contaminación y la sobrepesca son las mayores amenazas. ¿Qué propones?",
+      "choices": [
+        {"option": "Implementar áreas protegidas con vigilancia estricta", "next": "protected_areas"},
+        {"option": "Crear campañas de concientización para pescadores", "next": "awareness_campaign"},
+        {"option": "Buscar tecnología para limpiar las aguas contaminadas", "next": "cleaning_technology"}
+      ]
+    },
+    "organize_crew": {
+      "text": "Una tripulación organizada mejora la capacidad de respuesta, pero surgen tensiones internas. ¿Cómo actúas?",
+      "choices": [
+        {"option": "Fomentar comunicación abierta y resolver conflictos", "next": "resolve_conflicts"},
+        {"option": "Asignar roles claros y entrenamientos específicos", "next": "assign_roles"},
+        {"option": "Motivar con incentivos para mantener el ánimo alto", "next": "motivate_crew"}
+      ]
+    },
+    "local_support": {
+      "text": "Las comunidades locales tienen conocimiento valioso, pero desconfían de los foráneos. ¿Qué haces?",
+      "choices": [
+        {"option": "Involucrar líderes locales en la toma de decisiones", "next": "involve_locals"},
+        {"option": "Organizar talleres para compartir conocimientos", "next": "share_knowledge"},
+        {"option": "Respetar las tradiciones locales y buscar consenso", "next": "respect_traditions"}
+      ]
+    },
+    "protected_areas": {
+      "text": "Las áreas protegidas reducen la pesca ilegal, pero enfrentan sabotajes. ¿Cómo respondes?",
+      "choices": [
+        {"option": "Implementar patrullajes regulares y tecnología de vigilancia", "next": "increase_patrols"},
+        {"option": "Educar a la comunidad sobre los beneficios de la protección", "next": "awareness_campaign"},
+        {"option": "Buscar apoyo gubernamental para reforzar leyes", "next": "government_support"}
+      ]
+    },
+    "awareness_campaign": {
+      "text": "La campaña gana tracción, pero algunos pescadores dependen económicamente de prácticas dañinas. ¿Qué haces?",
+      "choices": [
+        {"option": "Ofrecer alternativas económicas sostenibles", "next": "economic_alternatives"},
+        {"option": "Fortalecer la comunicación para cambiar hábitos", "next": "share_knowledge"},
+        {"option": "Implementar sanciones progresivas para infractores", "next": "enforce_sanctions"}
+      ]
+    },
+    "cleaning_technology": {
+      "text": "La tecnología promete limpiar zonas críticas, pero es costosa y requiere mantenimiento. ¿Cómo procedes?",
+      "choices": [
+        {"option": "Buscar financiamiento internacional para el proyecto", "next": "international_funding"},
+        {"option": "Capacitar a la comunidad local para operar la tecnología", "next": "train_locals"},
+        {"option": "Realizar una prueba piloto antes de la implementación total", "next": "pilot_project"}
+      ]
+    },
+    "resolve_conflicts": {
+      "text": "Resolver tensiones mejora la cohesión, pero requiere tiempo. ¿Qué haces para equilibrar?",
+      "choices": [
+        {"option": "Alternar tareas para fomentar trabajo en equipo", "next": "assign_roles"},
+        {"option": "Organizar actividades recreativas para relajar el ambiente", "next": "motivate_crew"},
+        {"option": "Establecer reglas claras y consecuencias", "next": "strict_rules"}
+      ]
+    },
+    "assign_roles": {
+      "text": "Roles claros aumentan la eficiencia, aunque algunos miembros se sienten limitados. ¿Cómo manejas esto?",
+      "choices": [
+        {"option": "Ofrecer espacios para sugerencias y mejoras", "next": "open_feedback"},
+        {"option": "Rotar roles para que todos adquieran experiencia", "next": "rotate_roles"},
+        {"option": "Mantener la estructura para evitar confusión", "next": "strict_rules"}
+      ]
+    },
+    "motivate_crew": {
+      "text": "La motivación mejora el ambiente, pero no resuelve todos los problemas. ¿Qué haces para complementar?",
+      "choices": [
+        {"option": "Ofrecer capacitaciones para desarrollo personal", "next": "train_locals"},
+        {"option": "Escuchar inquietudes y adaptar planes", "next": "open_feedback"},
+        {"option": "Fortalecer el liderazgo para mantener el foco", "next": "assign_roles"}
+      ]
+    },
+    "involve_locals": {
+      "text": "Involucrar a líderes locales genera confianza y mejores soluciones. ¿Qué haces después?",
+      "choices": [
+        {"option": "Crear comités mixtos para supervisar acciones", "next": "community_committees"},
+        {"option": "Capacitar a jóvenes locales para futuras responsabilidades", "next": "train_locals"},
+        {"option": "Fomentar campañas de educación ambiental conjunta", "next": "awareness_campaign"}
+      ]
+    },
+    "train_locals": {
+      "text": "Capacitar a la comunidad local mejora la sostenibilidad a largo plazo. ¿Cuál es tu enfoque principal?",
+      "choices": [
+        {"option": "Diseñar talleres prácticos de manejo ambiental", "next": "share_knowledge"},
+        {"option": "Fomentar el liderazgo local para proyectos futuros", "next": "community_committees"},
+        {"option": "Buscar alianzas con expertos y ONG", "next": "international_funding"}
+        ]
+    },
+    "share_knowledge": {
+      "text": "Los talleres facilitan intercambio cultural y científico. ¿Qué acción tomas para reforzar el impacto?",
+      "choices": [
+        {"option": "Publicar materiales educativos accesibles", "next": "public_materials"},
+        {"option": "Organizar ferias ambientales abiertas", "next": "community_events"},
+        {"option": "Incorporar feedback para mejorar futuras actividades", "next": "open_feedback"}
+      ]
+    },
+    "respect_traditions": {
+      "text": "El respeto fortalece alianzas, aunque a veces ralentiza decisiones urgentes. ¿Qué haces?",
+      "choices": [
+        {"option": "Buscar consenso sin sacrificar objetivos", "next": "community_committees"},
+        {"option": "Adaptar planes para integrar tradiciones", "next": "cultural_integration"},
+        {"option": "Priorizar acciones urgentes con explicación clara", "next": "push_change"}
+      ]
+    },
+    "increase_patrols": {
+      "text": "La vigilancia reduce la pesca ilegal y aumenta la protección. ¿Cómo continúas?",
+      "choices": [
+        {"option": "Incorporar tecnología avanzada para monitoreo", "next": "cleaning_technology"},
+        {"option": "Capacitar a más voluntarios para patrullajes", "next": "train_locals"},
+        {"option": "Establecer alianzas con autoridades locales", "next": "government_support"}
+      ]
+    },
+    "government_support": {
+      "text": "El gobierno respalda las medidas, pero las burocracias ralentizan el proceso. ¿Qué haces?",
+      "choices": [
+        {"option": "Presionar para agilizar trámites y leyes", "next": "push_change"},
+        {"option": "Buscar apoyo de ONG para acelerar acciones", "next": "international_funding"},
+        {"option": "Mantener diálogo constante para no perder apoyo", "next": "community_committees"}
+      ]
+    },
+    "economic_alternatives": {
+      "text": "Ofreces proyectos alternativos como turismo sostenible y acuicultura. ¿Qué sigue?",
+      "choices": [
+        {"option": "Capacitar a la comunidad en nuevas habilidades", "next": "train_locals"},
+        {"option": "Buscar financiamiento para implementar proyectos", "next": "international_funding"},
+        {"option": "Promover campañas para aceptar los cambios", "next": "awareness_campaign"}
+      ]
+    },
+    "enforce_sanctions": {
+      "text": "Las sanciones disuaden prácticas dañinas, pero causan conflictos sociales. ¿Cómo manejas esto?",
+      "choices": [
+        {"option": "Implementar sanciones graduales con apoyo social", "next": "community_committees"},
+        {"option": "Combinar sanciones con educación y apoyo", "next": "awareness_campaign"},
+        {"option": "Reducir sanciones para evitar tensiones", "next": "peaceful_resolution"}
+      ]
+    },
+    "international_funding": {
+      "text": "El financiamiento internacional impulsa proyectos, pero también crea dependencia. ¿Qué haces?",
+      "choices": [
+        {"option": "Combinar fondos externos con desarrollo local", "next": "economic_alternatives"},
+        {"option": "Buscar autonomía gradual en proyectos", "next": "train_locals"},
+        {"option": "Invertir en capacitación para mantenimiento sostenible", "next": "train_locals"}
+      ]
+    },
+    "pilot_project": {
+      "text": "La prueba piloto es exitosa, pero revela desafíos técnicos. ¿Qué haces?",
+      "choices": [
+        {"option": "Ajustar tecnología y escalar progresivamente", "next": "increase_patrols"},
+        {"option": "Involucrar más a la comunidad para resolver problemas", "next": "involve_locals"},
+        {"option": "Buscar asesoría técnica especializada", "next": "scientific_evaluation"}
+      ]
+    },
+    "strict_rules": {
+      "text": "Reglas claras mejoran disciplina pero afectan la moral. ¿Qué haces?",
+      "choices": [
+        {"option": "Balancear reglas con incentivos", "next": "motivate_crew"},
+        {"option": "Mantener disciplina para cumplir objetivos", "next": "assign_roles"},
+        {"option": "Crear canales para expresar opiniones", "next": "open_feedback"}
+      ]
+    },
+    "open_feedback": {
+      "text": "La retroalimentación mejora el ambiente y la eficiencia. ¿Qué sigue?",
+      "choices": [
+        {"option": "Implementar sugerencias de manera rápida", "next": "assign_roles"},
+        {"option": "Organizar sesiones periódicas para compartir ideas", "next": "community_events"},
+        {"option": "Reconocer públicamente las aportaciones", "next": "motivate_crew"}
+      ]
+    },
+    "rotate_roles": {
+      "text": "Rotar roles desarrolla habilidades pero requiere entrenamiento. ¿Qué haces?",
+      "choices": [
+        {"option": "Planificar entrenamientos periódicos", "next": "train_locals"},
+        {"option": "Evaluar desempeño para asignar roles óptimos", "next": "strict_rules"},
+        {"option": "Fomentar espíritu de equipo para facilitar cambios", "next": "motivate_crew"}
+      ]
+    },
+    "community_committees": {
+      "text": "Los comités mejoran la gestión participativa y la confianza. ¿Qué haces para consolidar?",
+      "choices": [
+        {"option": "Establecer metas claras y plazos", "next": "push_change"},
+        {"option": "Incorporar nuevos miembros constantemente", "next": "train_locals"},
+        {"option": "Facilitar recursos para proyectos comunitarios", "next": "economic_alternatives"}
+      ]
+    },
+    "public_materials": {
+      "text": "Materiales accesibles amplían el alcance de la educación ambiental. (Final Bueno)",
+      "choices": []
+    },
+    "community_events": {
+      "text": "Ferias y eventos fortalecen el sentido comunitario y el compromiso ambiental. (Final Bueno)",
+      "choices": []
+    },
+    "cultural_integration": {
+      "text": "Integrar tradiciones con ciencia crea soluciones respetuosas y efectivas. (Final Verdadero)",
+      "choices": []
+    },
+    "push_change": {
+      "text": "Con esfuerzo conjunto, las políticas y prácticas sostenibles se adoptan exitosamente, asegurando la conservación del ecosistema marino. (Final Verdadero)",
+      "choices": []
+    },
+    "peaceful_resolution": {
+      "text": "La decisión de reducir sanciones evita conflictos, pero ralentiza el progreso ambiental. (Final Neutral)",
+      "choices": []
+    }
+  },
+
+
+  "forest_guardian": {
+    "start": {
+      "text": "Decides convertirte en guardián de un bosque en peligro. ¿Qué haces primero?",
+      "choices": [
+        {
+          "option": "Colocar cámaras ocultas contra la tala ilegal",
+          "next": "surveillance"
+        },
+        {
+          "option": "Dar charlas ecológicas a las comunidades",
+          "next": "educate_locals"
+        },
+        {
+          "option": "Solicitar reuniones con autoridades locales",
+          "next": "lobby_government"
+        }
+      ]
+    },
+    "surveillance": {
+      "text": "Capturas evidencia de tala. ¿Cómo actúas?",
+      "choices": [
+        {
+          "option": "Llevar las pruebas a la policía",
+          "next": "report_authorities"
+        },
+        {
+          "option": "Encara directamente a los taladores",
+          "next": "confront_loggers"
+        },
+        {
+          "option": "Acumular más pruebas antes de actuar",
+          "next": "gather_evidence"
+        }
+      ]
+    },
+    "educate_locals": {
+      "text": "La comunidad responde positivamente. ¿Qué impulsas?",
+      "choices": [
+        {
+          "option": "Jornadas de reforestación",
+          "next": "reforestation"
+        },
+        {
+          "option": "Iniciar granjas sostenibles",
+          "next": "sustainable_farming"
+        },
+        {
+          "option": "Organizar encuentros ambientales",
+          "next": "workshops"
+        }
+      ]
+    },
+    "lobby_government": {
+      "text": "Las autoridades parecen desinteresadas. ¿Qué haces?",
+      "choices": [
+        {
+          "option": "Iniciar campañas de firmas",
+          "next": "petitions"
+        },
+        {
+          "option": "Hacer presión por redes sociales",
+          "next": "media_campaign"
+        },
+        {
+          "option": "Unirte con líderes comunitarios",
+          "next": "build_alliances"
+        }
+      ]
+    },
+    "report_authorities": {
+      "text": "La policía actúa con lentitud pero realiza arrestos. ¿Siguiente paso?",
+      "choices": [
+        {
+          "option": "Aumentar la vigilancia con rondas",
+          "next": "strict_patrols"
+        },
+        {
+          "option": "Involucrar a vecinos en el cuidado del bosque",
+          "next": "community_involvement"
+        },
+        {
+          "option": "Exigir penas más duras contra los culpables",
+          "next": "push_penalties"
+        }
+      ]
+    },
+    "confront_loggers": {
+      "text": "Consigues que se vayan, pero podrían volver. ¿Cómo te preparas?",
+      "choices": [
+        {
+          "option": "Contratar seguridad privada",
+          "next": "increase_security"
+        },
+        {
+          "option": "Buscar ayuda entre los habitantes",
+          "next": "alliance_locals"
+        },
+        {
+          "option": "Capacitarse en defensa personal",
+          "next": "self_defense"
+        }
+      ]
+    },
+    "gather_evidence": {
+      "text": "Tu evidencia es sólida. ¿Qué haces con ella?",
+      "choices": [
+        {
+          "option": "Difundirla en redes",
+          "next": "public_release"
+        },
+        {
+          "option": "Negociar con los responsables",
+          "next": "negotiate_with_loggers"
+        },
+        {
+          "option": "Contactar a la prensa",
+          "next": "contact_media"
+        }
+      ]
+    },
+    "reforestation": {
+      "text": "La flora comienza a regenerarse. ¿Qué más haces?",
+      "choices": [
+        {
+          "option": "Ampliar zonas de reforestación",
+          "next": "expand_reforestation"
+        },
+        {
+          "option": "Observar la fauna del lugar",
+          "next": "wildlife_monitoring"
+        },
+        {
+          "option": "Invitar a investigadores ambientales",
+          "next": "invite_scientists"
+        }
+      ]
+    },
+    "sustainable_farming": {
+      "text": "Las nuevas técnicas se adoptan con éxito. ¿Ahora qué?",
+      "choices": [
+        {
+          "option": "Crear mercados locales ecológicos",
+          "next": "local_markets"
+        },
+        {
+          "option": "Promover turismo ecológico",
+          "next": "eco_tourism"
+        },
+        {
+          "option": "Ofrecer capacitaciones técnicas",
+          "next": "train_farmers"
+        }
+      ]
+    },
+    "workshops": {
+      "text": "Los encuentros inspiran a muchos. ¿Cómo das seguimiento?",
+      "choices": [
+        {
+          "option": "Multiplicar los talleres",
+          "next": "expand_workshops"
+        },
+        {
+          "option": "Formar grupos juveniles ecológicos",
+          "next": "youth_programs"
+        },
+        {
+          "option": "Fomentar proyectos con vecinos",
+          "next": "community_projects"
+        }
+      ]
+    },
+    "petitions": {
+      "text": "Recoges muchas firmas, pero no hay acción. ¿Qué haces?",
+      "choices": [
+        {
+          "option": "Convocar protestas pacíficas",
+          "next": "organize_protests"
+        },
+        {
+          "option": "Solicitar apoyo de ONG internacionales",
+          "next": "international_aid"
+        },
+        {
+          "option": "Dialogar directamente con líderes locales",
+          "next": "negotiate_locally"
+        }
+      ]
+    },
+    "media_campaign": {
+      "text": "Tu campaña se viraliza. ¿Cómo lo aprovechas?",
+      "choices": [
+        {
+          "option": "Exigir políticas urgentes",
+          "next": "pressure_government"
+        },
+        {
+          "option": "Lanzar colecta solidaria",
+          "next": "raise_funds"
+        },
+        {
+          "option": "Invitar a voluntarios",
+          "next": "recruit_volunteers"
+        }
+      ]
+    },
+    "build_alliances": {
+      "text": "La comunidad se une a tu causa. ¿Qué haces después?",
+      "choices": [
+        {
+          "option": "Crear patrullas conjuntas",
+          "next": "joint_patrols"
+        },
+        {
+          "option": "Diseñar campañas educativas",
+          "next": "education_initiatives"
+        },
+        {
+          "option": "Impulsar emprendimientos verdes",
+          "next": "eco_businesses"
+        }
+      ]
+    },
+    "push_penalties": {
+      "text": "Las leyes se endurecen pero se aplican con parcialidad. (final neutral)",
+      "choices": []
+    },
+    "self_defense": {
+      "text": "Algunos se sienten más seguros, pero otros temen violencia. (final neutral)",
+      "choices": []
+    },
+    "public_release": {
+      "text": "La indignación pública obliga al gobierno a actuar. (final bueno)",
+      "choices": []
+    },
+    "negotiate_with_loggers": {
+      "text": "Los acuerdos reducen la tala, pero hay compromisos cuestionables. (final malo)",
+      "choices": []
+    },
+    "contact_media": {
+      "text": "Los medios difunden tu causa, pero enfrentas amenazas. (final malo)",
+      "choices": []
+    },
+    "expand_reforestation": {
+      "text": "El bosque renace y eres reconocido mundialmente. (final verdadero)",
+      "choices": []
+    },
+    "wildlife_monitoring": {
+      "text": "El regreso de especies atrae inversión ecológica. (final bueno)",
+      "choices": []
+    },
+    "invite_scientists": {
+      "text": "El conocimiento científico protege aún más la zona. (final bueno)",
+      "choices": []
+    },
+    "local_markets": {
+      "text": "La economía local mejora, pero los recursos se tensan. (final neutral)",
+      "choices": []
+    },
+    "eco_tourism": {
+      "text": "El turismo crece, pero daña zonas vulnerables. (final malo)",
+      "choices": []
+    },
+    "train_farmers": {
+      "text": "La capacitación transforma el campo de forma sostenible. (final bueno)",
+      "choices": []
+    },
+    "expand_workshops": {
+      "text": "Los talleres inspiran una generación consciente. (final bueno)",
+      "choices": []
+    },
+    "youth_programs": {
+      "text": "La juventud se involucra, pero falta continuidad. (final neutral)",
+      "choices": []
+    },
+    "community_projects": {
+      "text": "Las obras ayudan, pero la burocracia frena el avance. (final malo)",
+      "choices": []
+    },
+    "organize_protests": {
+      "text": "Las marchas ganan atención, pero la represión es dura. (final malo)",
+      "choices": []
+    },
+    "international_aid": {
+      "text": "Llegan fondos, pero con condiciones extranjeras. (final neutral)",
+      "choices": []
+    },
+    "negotiate_locally": {
+      "text": "El consenso logra pequeños pero reales avances. (final bueno)",
+      "choices": []
+    },
+    "pressure_government": {
+      "text": "Se aprueban reformas que protegen el ecosistema. (final bueno)",
+      "choices": []
+    },
+    "raise_funds": {
+      "text": "Los recursos se usan bien, pero son escasos. (final neutral)",
+      "choices": []
+    },
+    "recruit_volunteers": {
+      "text": "El entusiasmo inicial se disipa sin resultados concretos. (final malo)",
+      "choices": []
+    },
+    "joint_patrols": {
+      "text": "La seguridad mejora y la confianza crece. (final bueno)",
+      "choices": []
+    },
+    "education_initiatives": {
+      "text": "La educación cambia mentalidades a largo plazo. (final bueno)",
+      "choices": []
+    },
+    "eco_businesses": {
+      "text": "Los negocios prosperan, pero algunos priorizan el lucro. (final malo)",
+      "choices": []
+    },
+    "strict_patrols": {
+      "text": "Las patrullas reducen la tala, pero generan tensiones con vecinos. ¿Qué haces?",
+      "choices": [
+        {
+          "option": "Buscar diálogo con la comunidad",
+          "next": "community_dialogue"
+        },
+        {
+          "option": "Mantener las patrullas estrictas",
+          "next": "push_penalties"
+        },
+        {
+          "option": "Reclutar más voluntarios para apoyar",
+          "next": "recruit_volunteers"
+        }
+      ]
+    },
+    "community_involvement": {
+      "text": "Los vecinos se comprometen a cuidar el bosque. ¿Qué proyecto impulsas?",
+      "choices": [
+        {
+          "option": "Crear un comité ambiental local",
+          "next": "build_alliances"
+        },
+        {
+          "option": "Organizar talleres de cuidado ambiental",
+          "next": "expand_workshops"
+        },
+        {
+          "option": "Realizar monitoreos participativos de fauna",
+          "next": "wildlife_monitoring"
+        }
+      ]
+    },
+    "increase_security": {
+      "text": "La seguridad privada disuade a los taladores, pero es costosa. ¿Qué haces?",
+      "choices": [
+        {
+          "option": "Buscar financiamiento comunitario",
+          "next": "raise_funds"
+        },
+        {
+          "option": "Reducir costos con ayuda voluntaria",
+          "next": "recruit_volunteers"
+        },
+        {
+          "option": "Continuar con seguridad privada pese al costo",
+          "next": "strict_patrols"
+        }
+      ]
+    },
+    "alliance_locals": {
+      "text": "Los habitantes se organizan para proteger el bosque. ¿Qué plan siguen?",
+      "choices": [
+        {
+          "option": "Rondas nocturnas de vigilancia",
+          "next": "strict_patrols"
+        },
+        {
+          "option": "Campañas de sensibilización",
+          "next": "media_campaign"
+        },
+        {
+          "option": "Reforestación comunitaria",
+          "next": "reforestation"
+        }
+      ]
+    },
+    "community_dialogue": {
+      "text": "Se mejora la relación con vecinos, pero la tala sigue. ¿Qué haces?",
+      "choices": [
+        {
+          "option": "Incorporar líderes locales en vigilancia",
+          "next": "joint_patrols"
+        },
+        {
+          "option": "Fortalecer campañas educativas",
+          "next": "education_initiatives"
+        },
+        {
+          "option": "Presionar para leyes más estrictas",
+          "next": "push_penalties"
+        }
+      ]
+    }
+  },
+
+  "arctic_mission": {
+    "start": {
+      "text": "Te unes a una misión para estudiar el derretimiento del hielo ártico. ¿Cuál es tu rol?",
+      "choices": [
+        {
+          "option": "Liderar la recolección de datos científicos",
+          "next": "collect_data"
+        },
+        {
+          "option": "Gestionar logística y suministros",
+          "next": "manage_supplies"
+        },
+        {
+          "option": "Comunicarte con medios y público",
+          "next": "handle_media"
+        }
+      ]
+    },
+    "collect_data": {
+      "text": "Los datos muestran tasas alarmantes de derretimiento. ¿Alertas a los medios globales o sigues estudiando?",
+      "choices": [
+        {
+          "option": "Alertar a los medios inmediatamente",
+          "next": "alert_media"
+        },
+        {
+          "option": "Continuar el estudio detallado",
+          "next": "continue_study"
+        },
+        {
+          "option": "Consultar primero con el equipo",
+          "next": "consult_team"
+        }
+      ]
+    },
+    "manage_supplies": {
+      "text": "Los suministros escasean debido a tormentas. ¿Pides una evacuación aérea de emergencia o racionas los suministros?",
+      "choices": [
+        {
+          "option": "Solicitar evacuación aérea de emergencia",
+          "next": "emergency_airlift"
+        },
+        {
+          "option": "Racionar cuidadosamente los suministros",
+          "next": "ration_supplies"
+        },
+        {
+          "option": "Buscar recursos o depósitos locales",
+          "next": "find_local_resources"
+        }
+      ]
+    },
+    "handle_media": {
+      "text": "Los medios piden actualizaciones constantes. ¿Proporcionas informes en tiempo real o te enfocas en la misión y das actualizaciones periódicas?",
+      "choices": [
+        {
+          "option": "Proporcionar informes en tiempo real",
+          "next": "real_time_reports"
+        },
+        {
+          "option": "Enfocarse en la misión, actualizaciones periódicas",
+          "next": "periodic_updates"
+        }
+      ]
+    },
+    "alert_media": {
+      "text": "La cobertura mediática genera indignación global y debates políticos. ¿Te unes a los activistas o permaneces en la misión?",
+      "choices": [
+        {
+          "option": "Unirse a los activistas",
+          "next": "join_activists"
+        },
+        {
+          "option": "Permanecer enfocado en la misión",
+          "next": "stay_mission"
+        }
+      ]
+    },
+    "continue_study": {
+      "text": "Tus datos detallados ayudan al entendimiento científico. ¿Publicas los resultados o los presentas en una cumbre global?",
+      "choices": [
+        {
+          "option": "Publicar artículo científico",
+          "next": "publish_paper"
+        },
+        {
+          "option": "Presentar en la cumbre climática",
+          "next": "summit_presentation"
+        }
+      ]
+    },
+    "consult_team": {
+      "text": "El equipo debate los riesgos de alertar a los medios. ¿Presionas para actuar pronto o continúas con cautela?",
+      "choices": [
+        {
+          "option": "Presionar para una acción temprana",
+          "next": "alert_media"
+        },
+        {
+          "option": "Proceder con cautela con la investigación",
+          "next": "continue_study"
+        }
+      ]
+    },
+    "emergency_airlift": {
+      "text": "La evacuación aérea se retrasa por tormentas. El ánimo cae. ¿Motivas al equipo o comienzas a preparar la evacuación?",
+      "choices": [
+        {
+          "option": "Motivar al equipo",
+          "next": "motivate_team"
+        },
+        {
+          "option": "Preparar la evacuación",
+          "next": "evacuate_early"
+        }
+      ]
+    },
+    "ration_supplies": {
+      "text": "El racionamiento ralentiza el progreso. ¿Te enfocas en sobrevivir hasta el reabastecimiento o priorizas el trabajo de misión con riesgo?",
+      "choices": [
+        {
+          "option": "Enfocarse en la supervivencia",
+          "next": "survival_success"
+        },
+        {
+          "option": "Priorizar el trabajo de la misión",
+          "next": "data_at_cost"
+        }
+      ]
+    },
+    "find_local_resources": {
+      "text": "Encuentras depósitos de suministros pero están cerca de zonas protegidas de fauna.",
+      "choices": [
+        {
+          "option": "Tomar los suministros de todos modos",
+          "next": "disturb_ecosystem"
+        },
+        {
+          "option": "Respetar la fauna y dejarlos",
+          "next": "honor_ecosystem"
+        }
+      ]
+    },
+    "real_time_reports": {
+      "text": "Tus informes se vuelven virales, pero causan fricciones dentro del equipo. Eventualmente, el agotamiento afecta el progreso. (final neutral)",
+      "choices": []
+    },
+    "periodic_updates": {
+      "text": "Equilibras el trabajo y la divulgación. Tus actualizaciones generan interés global y la misión se completa con éxito. (final bueno)",
+      "choices": []
+    },
+    "join_activists": {
+      "text": "Te conviertes en una voz líder del clima, pero pierdes financiación científica. ¿Lanzas una nueva iniciativa o te unes a una ONG global?",
+      "choices": [
+        {
+          "option": "Lanzar nueva ONG de investigación",
+          "next": "launch_ngo"
+        },
+        {
+          "option": "Unirse al movimiento climático global",
+          "next": "global_voice"
+        }
+      ]
+    },
+    "stay_mission": {
+      "text": "Permaneces en la misión. El informe final influye en la política futura del Ártico. Tu trabajo es reconocido globalmente. (final bueno)",
+      "choices": []
+    },
+    "publish_paper": {
+      "text": "Tu trabajo se convierte en una referencia científica clave. Inspira más estudios y cambios en políticas. (final bueno)",
+      "choices": []
+    },
+    "summit_presentation": {
+      "text": "Tu discurso en la cumbre influye en resoluciones climáticas. Te invitan a futuras misiones globales. (final bueno)",
+      "choices": []
+    },
+    "motivate_team": {
+      "text": "El ánimo del equipo mejora y completan la misión justo cuando llega la ayuda. Fue un caso límite pero exitoso. (final bueno)",
+      "choices": []
+    },
+    "evacuate_early": {
+      "text": "La evacuación asegura la seguridad, pero la misión termina prematuramente. Aun así, tu liderazgo es elogiado. (final neutral)",
+      "choices": []
+    },
+    "survival_success": {
+      "text": "El equipo se mantiene saludable y logras completar suficiente trabajo para apoyar futuras investigaciones. (final bueno)",
+      "choices": []
+    },
+    "data_at_cost": {
+      "text": "Obtienes todos los datos, pero varios miembros del equipo enferman. La misión es valiosa científicamente pero cuestionable éticamente. (final malo)",
+      "choices": []
+    },
+    "disturb_ecosystem": {
+      "text": "Completas la misión, pero la fauna local sufre. Grupos ambientalistas critican tus acciones. (final malo)",
+      "choices": []
+    },
+    "honor_ecosystem": {
+      "text": "Aunque enfrentas dificultades, tu respeto por la naturaleza es ampliamente elogiado. Completas una misión reducida pero ética. (final bueno)",
+      "choices": []
+    },
+    "launch_ngo": {
+      "text": "Tu organización crece rápidamente, promoviendo ciencia climática independiente. (final bueno)",
+      "choices": []
+    },
+    "global_voice": {
+      "text": "Viajas por el mundo como orador, inspirando a millones pero rara vez regresando a la investigación. (final neutral)",
+      "choices": []
+    }
+  },
+
+  "solar_revolution": {
+    "start": {
+      "text": "Estás liderando un proyecto para implementar energía solar en una ciudad altamente dependiente de combustibles fósiles. El ambiente es tenso y los intereses son diversos. ¿Cuál es tu primera acción?",
+      "choices": [
+        {
+          "option": "Instalar granjas solares piloto en zonas rurales",
+          "next": "install_farms"
+        },
+        {
+          "option": "Presionar al gobierno por subsidios energéticos",
+          "next": "lobby_government"
+        },
+        {
+          "option": "Organizar una conferencia pública sobre energías limpias",
+          "next": "public_conference"
+        }
+      ]
+    },
+    "install_farms": {
+      "text": "Las granjas solares comienzan a funcionar, pero enfrentan sabotajes nocturnos por parte de grupos opositores. ¿Qué haces?",
+      "choices": [
+        {
+          "option": "Instalar seguridad avanzada en las instalaciones",
+          "next": "security_upgrade"
+        },
+        {
+          "option": "Buscar apoyo legal y mediático para exponer los ataques",
+          "next": "legal_support"
+        },
+        {
+          "option": "Intentar dialogar con los opositores",
+          "next": "dialogue_groups"
+        }
+      ]
+    },
+    "lobby_government": {
+      "text": "El gobierno responde con lentitud, pero ofrece subsidios limitados. Sin embargo, ciertos sectores te acusan de favoritismo. ¿Cómo manejas esto?",
+      "choices": [
+        {
+          "option": "Aceptar los subsidios y continuar",
+          "next": "current_funds"
+        },
+        {
+          "option": "Denunciar públicamente la falta de apoyo real",
+          "next": "public_denounce"
+        },
+        {
+          "option": "Negociar discretamente con políticos clave",
+          "next": "backdoor_negotiations"
+        }
+      ]
+    },
+    "public_conference": {
+      "text": "La conferencia es un éxito mediático, pero algunos medios conservadores lo atacan. ¿Cuál es tu siguiente paso?",
+      "choices": [
+        {
+          "option": "Invitar a científicos internacionales para dar más peso",
+          "next": "international_support"
+        },
+        {
+          "option": "Responder directamente a los medios opositores",
+          "next": "media_conflict"
+        },
+        {
+          "option": "Organizar talleres comunitarios en barrios vulnerables",
+          "next": "community_workshops"
+        }
+      ]
+    },
+    "security_upgrade": {
+      "text": "Con la nueva seguridad, los ataques cesan. Pero los costos suben y limitan la expansión. ¿Qué haces?",
+      "choices": [
+        {
+          "option": "Buscar financiamiento privado ético",
+          "next": "ethical_funding"
+        },
+        {
+          "option": "Reducir personal y optimizar recursos",
+          "next": "cut_costs"
+        },
+        {
+          "option": "Pedir ayuda internacional",
+          "next": "seek_global_aid"
+        }
+      ]
+    },
+    "dialogue_groups": {
+      "text": "Algunos opositores acceden al diálogo y se convierten en aliados. Pero otros se radicalizan. ¿Qué estrategia sigues?",
+      "choices": [
+        {
+          "option": "Incluir a los nuevos aliados en el proyecto",
+          "next": "include_allies"
+        },
+        {
+          "option": "Fortalecer la seguridad para proteger a los trabajadores",
+          "next": "fortify_defense"
+        },
+        {
+          "option": "Redoblar esfuerzos mediáticos para aislar a los radicales",
+          "next": "isolate_radicals"
+        }
+      ]
+    },
+    "legal_support": {
+      "text": "Las denuncias legales exponen la red de sabotaje y ganan simpatía ciudadana. Tus esfuerzos son reconocidos por ONG internacionales. (final bueno)",
+      "choices": []
+    },
+    "public_denounce": {
+      "text": "La denuncia provoca una crisis política. Pierdes aliados y el proyecto se estanca. (final malo)",
+      "choices": []
+    },
+    "backdoor_negotiations": {
+      "text": "Las negociaciones secretas aseguran fondos, pero te cuestionan la transparencia. Pierdes apoyo público. (final neutral)",
+      "choices": []
+    },
+    "ethical_funding": {
+      "text": "Con financiamiento ético, amplías el proyecto sin perder credibilidad. La ciudad comienza una transición energética real. (final bueno)",
+      "choices": []
+    },
+    "cut_costs": {
+      "text": "Reducir costos salva el proyecto temporalmente, pero afecta calidad y seguridad. Eventualmente la iniciativa pierde fuerza. (final malo)",
+      "choices": []
+    },
+    "seek_global_aid": {
+      "text": "El apoyo internacional impulsa la revolución solar y posiciona a la ciudad como ejemplo global. (final verdadero)",
+      "choices": []
+    },
+    "include_allies": {
+      "text": "Los nuevos aliados aportan ideas innovadoras y aumentan el apoyo comunitario. El proyecto prospera y gana reconocimiento. (final bueno)",
+      "choices": []
+    },
+    "fortify_defense": {
+      "text": "La seguridad reforzada evita ataques, pero genera tensiones sociales. Algunos vecinos rechazan la militarización del área. (final neutral)",
+      "choices": []
+    },
+    "isolate_radicals": {
+      "text": "La campaña mediática divide a la comunidad. Se pierde cohesión social y parte del proyecto fracasa. (final malo)",
+      "choices": []
+    },
+    "install_farms_end": {
+      "text": "Las granjas solares impulsan la producción de energía limpia. La ciudad empieza a reducir su huella de carbono. (final bueno)",
+      "choices": []
+    },
+    "current_funds": {
+    "text": "Con los fondos actuales, el avance es lento y algunos inversores presionan para obtener resultados rápidos. ¿Cómo procedes?",
+    "choices": [
+        {
+        "option": "Implementar un plan de mejoras graduales y comunicarlas públicamente",
+        "next": "gradual_improvements"
+        },
+        {
+        "option": "Buscar alianzas con empresas tecnológicas para acelerar el desarrollo",
+        "next": "tech_partnership"
+        },
+        {
+        "option": "Reducir el alcance del proyecto para evitar riesgos financieros",
+        "next": "scale_down_project"
+        }
+    ]
+    },
+    "gradual_improvements": {
+    "text": "El plan gradual genera confianza en la comunidad y mantiene la estabilidad financiera. El proyecto avanza, aunque lentamente. (final bueno)",
+    "choices": []
+    },
+    "tech_partnership": {
+    "text": "La alianza tecnológica acelera el progreso, pero genera dependencia de corporaciones poderosas. La credibilidad del proyecto se cuestiona. (final neutral)",
+    "choices": []
+    },
+    "scale_down_project": {
+    "text": "Reducir el alcance disminuye riesgos inmediatos, pero el impacto ambiental se vuelve insuficiente. El proyecto pierde relevancia. (final malo)",
+    "choices": []
+    },
+
+    "international_support": {
+    "text": "Los científicos internacionales generan apoyo y presión política favorable. Sin embargo, algunos grupos locales se sienten excluidos. ¿Qué haces?",
+    "choices": [
+        {
+        "option": "Involucrar a líderes comunitarios en futuras reuniones",
+        "next": "community_involvement"
+        },
+        {
+        "option": "Seguir con la estrategia científica y minimizar las críticas locales",
+        "next": "focus_science"
+        },
+        {
+        "option": "Lanzar una campaña informativa local para educar y motivar",
+        "next": "local_campaign"
+        }
+    ]
+    },
+    "community_involvement": {
+    "text": "Al incluir líderes comunitarios, fortaleces el apoyo local y aumentas la aceptación social. El proyecto se consolida con éxito. (final bueno)",
+    "choices": []
+    },
+    "focus_science": {
+    "text": "Ignorar las críticas locales profundiza la división y crea resistencia. Algunos sabotajes resurgen. (final malo)",
+    "choices": []
+    },
+    "local_campaign": {
+    "text": "La campaña educativa mejora la percepción pública, pero no logra eliminar todas las resistencias. El proyecto avanza con cautela. (final neutral)",
+    "choices": []
+    },
+
+    "media_conflict": {
+    "text": "Responder a los medios genera más debates y algunos ataques personales. La opinión pública está dividida. ¿Cómo manejas la situación?",
+    "choices": [
+        {
+        "option": "Realizar entrevistas transparentes para ganar confianza",
+        "next": "transparent_interviews"
+        },
+        {
+        "option": "Ignorar a los críticos y enfocarte en el progreso del proyecto",
+        "next": "focus_progress"
+        },
+        {
+        "option": "Convocar a un foro público para debatir las preocupaciones",
+        "next": "public_forum"
+        }
+    ]
+    },
+    "transparent_interviews": {
+    "text": "Las entrevistas abiertas mejoran la confianza pública y generan un nuevo apoyo ciudadano. (final bueno)",
+    "choices": []
+    },
+    "focus_progress": {
+    "text": "Ignorar a los críticos mantiene el foco en el trabajo, pero la división social persiste y el apoyo se estanca. (final neutral)",
+    "choices": []
+    },
+    "public_forum": {
+    "text": "El foro genera un debate intenso, pero también polariza más a la comunidad. El proyecto sufre retrasos. (final malo)",
+    "choices": []
+    },
+
+    "community_workshops": {
+    "text": "Los talleres fortalecen el apoyo popular y crean redes de voluntarios. Sin embargo, los recursos se dispersan. ¿Qué haces?",
+    "choices": [
+        {
+        "option": "Organizar una red coordinada de voluntarios con roles definidos",
+        "next": "volunteer_network"
+        },
+        {
+        "option": "Priorizar los talleres en las zonas con mayor impacto potencial",
+        "next": "targeted_workshops"
+        },
+        {
+        "option": "Buscar financiamiento adicional para sostener las actividades",
+        "next": "funding_drive"
+        }
+    ]
+    },
+    "volunteer_network": {
+    "text": "La coordinación efectiva multiplica el impacto y crea una base sólida de apoyo comunitario. (final bueno)",
+    "choices": []
+    },
+    "targeted_workshops": {
+    "text": "Con enfoque limitado, se logran avances en zonas clave, pero otras áreas quedan olvidadas. (final neutral)",
+    "choices": []
+    },
+    "funding_drive": {
+    "text": "El esfuerzo de financiamiento tiene éxito parcial, pero genera desgaste en el equipo organizador. (final malo)",
+    "choices": []
+    }
+  }
+}

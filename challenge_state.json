@@ -1,0 +1,12 @@
+{
+  "1128512658736414781": {
+    "current_challenge": {
+      "type": "hourly",
+      "challenge": "Desconecta un dispositivo que no estés usando.",
+      "assigned_at": 1748706717.4268932,
+      "claimed": true
+    },
+    "last_hourly_claim": 1748706720.66624,
+    "last_daily_claim": 1748706714.5199587
+  }
+}
