@@ -4,8 +4,8 @@ import os
 from utils.currency import update_currency
 
 
-QUESTIONS_FILE = "data/trivia_questions.json"
-SCORES_FILE = "data/trivia_scores.json"
+QUESTIONS_FILE = "trivia_questions.json"
+SCORES_FILE = "trivia_scores.json"
 QUESTIONS_PER_SESSION = 5
 
 with open(QUESTIONS_FILE, encoding="utf-8") as f:
